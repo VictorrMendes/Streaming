@@ -1,0 +1,59 @@
+body{
+    background-color: #070707;
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+/* Menu */
+.content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: relative;
+    bottom: 10%;
+}
+/* Titulo */
+.container h2{
+    text-align: center;
+    color: #fff;
+    margin-bottom: 15%;
+    font-size: 3em;
+}
+/* Perfis */
+.perfis{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+    gap: 30px;
+    color: #fff;
+    text-align: center;
+}
+.perfis a{
+    text-decoration: none;
+    color: #fff;
+}
+/* Imagens do Perfil */
+.perfil img{
+    border-radius: 20%;
+}
+.perfil img:hover{
+    cursor: pointer;
+    transform: scale(1.3);
+    gap: 20%;
+}
+.perfil p{
+    font-size: 1.3em;
+}
+.perfil p:hover{
+    cursor: pointer;
+    transform: scale(1.3);
+    gap: 20%;
+    color: #999898;
+}
