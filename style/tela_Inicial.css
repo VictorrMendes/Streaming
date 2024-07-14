@@ -125,7 +125,6 @@ box-shadow: 0 0 0 .15vw rgb(187, 95, 95);
     width: auto;
     background-color: rgba(51, 51, 51, 0.5);
 }
-
 .banner_button a{
     text-decoration: none;
     color: #ffffff;
@@ -166,6 +165,7 @@ box-shadow: 0 0 0 .15vw rgb(187, 95, 95);
 .row {
     color: white;
     margin-left: 20px;
+    margin-top: 5%;
 }
 .row__posters::-webkit-scrollbar {
     display: none;
