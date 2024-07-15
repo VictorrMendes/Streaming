@@ -7,7 +7,10 @@ function verificarAcesso(){
 var email = document.querySelector('#email').value;
 var password = document.querySelector('#password').value;
 
-if (email === 'admin' && password === 'admin') {
+const login_acesso = "admin";
+const senha_acesso = "admin";
+
+if (email === login_acesso && password === senha_acesso) {
     window.open('./documents/perfis.html')
     alert('Bem vinda!');
 } else {
