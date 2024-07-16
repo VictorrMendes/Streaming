@@ -1,12 +1,74 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Cadastro</title>
+
     <link rel="stylesheet" href="../style/cadastro.css">
+    <link rel="icon" type="image/favicon" href="../imagens/logo_top.png">
+
 </head>
 <body>
-    
+
+<div class="container">
+    <div class="form-image">
+        <img src="../imagens/undraw_netflix_q-00-o.svg">
+    </div>
+    <div class="form">
+
+        <form action="#" onsubmit="cadastro(event)"> <div class="form-header">
+            <div class="title"><H1>Cadastre-se</H1></div>
+            <div class="login-button">
+                <button class="submit" type="submit">Entrar</button>
+            </div>
+        </div>
+
+        
+
+        <div class="input-group">
+            <div class="input-box">
+                <label for="nome">Nome</label>
+                <input id="Nome" type="text" placeholder="Escreva seu Nome" required>
+            </div>
+
+            <div class="input-box">
+                <label for="email">Email</label>
+                <input id="Email" type="email" name="email"placeholder="Escreva seu Email" required>
+            </div>
+
+            <div class="input-box">
+                <label for="number">Celular</label>
+                <input id="number" type="tel"name="number" placeholder="(xx) x xxxx-xxxx" required>
+            </div>
+
+            <div class="input-box">
+                <label for="password">Senha</label>
+                <input id="password" type="password" name="passowrd" placeholder="Digite sua senha" required>
+            </div>
+
+            <div class="input-box">
+                <label for="password">Confirme sua senha</label>
+                <input id="confirmPassword" type="password" name="ConfirmPassowrd"placeholder="Confirme sua senha" required>
+            </div>
+        </div>
+    </form>
+</div>
+</div>
+
+<footer>
+    <div class="login_footer">
+        <p>© 2024  Design by - 
+            <a href="https://www.linkedin.com/in/victor-mendes-de-souza-728270234/?trk=opento_sprofile_details">Victor Mendes</a> 
+            (Baseado na 
+            <a id="net" href="https://www.netflix.com/browse">Netflix</a>)
+        </p>
+    </div>
+</footer>
+
+<script src="../script/cadastro.js"></script>
+
+
 </body>
 </html>

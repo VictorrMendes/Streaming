@@ -24,10 +24,11 @@ section{
     border-radius: 10px;
     box-shadow: 0 0 10px rgba(0,0,0,0.1);
     width: 400px;
-    height: 500px;
+    height: auto;
     text-align: center;
     color: #fff;
     padding: 40px;
+    
 }
 .login_box h1{
     display: flex;
@@ -102,12 +103,12 @@ a{
     display: flex;
     justify-content: center;
     align-items: center;
-    font-size: 1vw;
+    font-size: 1em;
     gap: 10px;
 }
 .sigin_up a{
     color: #c5c5c5;
-    font-size: 1.1vw;
+    font-size: 1.3em;
 }
 .sigin_up a:hover{
     text-decoration: underline;
@@ -116,6 +117,24 @@ a{
     margin-top: 0;
 }
 .terms a{
-    font-size: 1.1vw;
+    font-size: 1.3em;
 }
-    
+.login_footer_login{
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    align-items: center;
+    text-align: center;
+    font-size: 1.4em;
+    color: #fff;
+}
+.login_footer_login a{
+    text-decoration: none;
+    color: #fff;
+}
+.login_footer_login a:hover{
+    color: #22cafd;
+    text-decoration: underline;
+    cursor: pointer;
+}
