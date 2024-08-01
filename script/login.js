@@ -1,6 +1,6 @@
 const login = document.querySelector('.submit');
 
-alert('Olá, bem vindo ao site, o login e a senha é "admin" ');
+alert('Olá, bem vindo ao site! O login e a senha são "admin" ');
 
 login.addEventListener('click', verificarAcesso);
 
