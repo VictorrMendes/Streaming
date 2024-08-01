@@ -1,0 +1,32 @@
+@media(max-width: 500px) {
+    
+/* Menu */
+.content{
+    height:100%;
+}
+/* Titulo */
+.container h2{
+    margin-bottom: 15%;
+    font-size: 25px;
+}
+    .perfis{
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 5px;
+        gap: 10px;
+    }
+    
+/* Imagens do Perfil */
+.perfil img{
+    border-radius: 20%;
+    width: 70px;
+}
+.perfil img:hover{
+    cursor: pointer;
+    transform: scale(1.3);
+    gap: 20%;
+}
+.perfil p{
+    font-size: 13px;
+}
+}
